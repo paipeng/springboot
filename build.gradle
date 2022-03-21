@@ -54,8 +54,8 @@ task updateVersion {
     }
 }
 bootJar {
-    baseName = applicationName
-    enabled = false
+    //baseName = applicationName
+    //enabled = false
 }
 tasks.compileJava {
     dependsOn(updateVersion)
